@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3AF0E5BC2C128AC2001AB55A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0E5BB2C128AC2001AB55A /* main.swift */; };
+		3AF0E5C32C128AED001AB55A /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0E5C22C128AED001AB55A /* day1.swift */; };
+		3AF0E5C52C12EDC3001AB55A /* day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0E5C42C12EDC3001AB55A /* day2.swift */; };
+		3AF0E5C72C12EE03001AB55A /* day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0E5C62C12EE03001AB55A /* day3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3AF0E5B82C128AC2001AB55A /* intro-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "intro-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF0E5BB2C128AC2001AB55A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3AF0E5C22C128AED001AB55A /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
+		3AF0E5C42C12EDC3001AB55A /* day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day2.swift; sourceTree = "<group>"; };
+		3AF0E5C62C12EE03001AB55A /* day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				3AF0E5BB2C128AC2001AB55A /* main.swift */,
+				3AF0E5C22C128AED001AB55A /* day1.swift */,
+				3AF0E5C42C12EDC3001AB55A /* day2.swift */,
+				3AF0E5C62C12EE03001AB55A /* day3.swift */,
 			);
 			path = "intro-swift";
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF0E5C32C128AED001AB55A /* day1.swift in Sources */,
+				3AF0E5C52C12EDC3001AB55A /* day2.swift in Sources */,
+				3AF0E5C72C12EE03001AB55A /* day3.swift in Sources */,
 				3AF0E5BC2C128AC2001AB55A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+day1()
+day2()
+day3()
 
