@@ -21,7 +21,7 @@ func day4() {
     var _: [String] = ["Coke", "Pepsi", "Irn-Bru"]
     var _: [String] = [String]()
     var _: [String] = []
-    
+
     // checkpoint2
     let albums = ["Red", "Fearless"]
     print("albums count: ",albums.count)
