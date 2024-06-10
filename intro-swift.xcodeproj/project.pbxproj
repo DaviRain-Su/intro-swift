@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1D3CD22C175A26005078CD /* day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D3CD12C175A26005078CD /* day6.swift */; };
 		3AF0E5BC2C128AC2001AB55A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0E5BB2C128AC2001AB55A /* main.swift */; };
 		3AF0E5C32C128AED001AB55A /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0E5C22C128AED001AB55A /* day1.swift */; };
 		3AF0E5C52C12EDC3001AB55A /* day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0E5C42C12EDC3001AB55A /* day2.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A1D3CD12C175A26005078CD /* day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day6.swift; sourceTree = "<group>"; };
 		3AF0E5B82C128AC2001AB55A /* intro-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "intro-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF0E5BB2C128AC2001AB55A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3AF0E5C22C128AED001AB55A /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				3AF0E5C22C128AED001AB55A /* day1.swift */,
 				3AF0E5C42C12EDC3001AB55A /* day2.swift */,
 				3AF0E5C62C12EE03001AB55A /* day3.swift */,
+				3A1D3CD12C175A26005078CD /* day6.swift */,
 			);
 			path = "intro-swift";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 				3AF0E5C32C128AED001AB55A /* day1.swift in Sources */,
 				3AF0E5C52C12EDC3001AB55A /* day2.swift in Sources */,
 				3AF0E5C72C12EE03001AB55A /* day3.swift in Sources */,
+				3A1D3CD22C175A26005078CD /* day6.swift in Sources */,
 				3AF0E5C92C14091E001AB55A /* day4.swift in Sources */,
 				3AF0E5CB2C140A97001AB55A /* day5.swift in Sources */,
 				3AF0E5BC2C128AC2001AB55A /* main.swift in Sources */,
