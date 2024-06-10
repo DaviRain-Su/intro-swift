@@ -65,4 +65,76 @@ func day3() {
     let presidents = ["Bush", "Obama", "Trump", "Biden"]
     let reversedPresidents = presidents.reversed()
     print(reversedPresidents)
+    
+    // dictionaries
+    
+    let employee = [
+        "name": "Taylor Swift",
+        "job": "Singer",
+        "location": "Nashville"
+    ]
+    print(employee)
+    print(employee["name", default: "Unknown"])
+    print(employee["job", default: "Unknown"])
+    print(employee["location", default: "Unknown"])
+    
+    let hasGraduated = [
+        "Eric": false,
+        "Maeve": true,
+        "Otis": false,
+    ]
+    print(hasGraduated)
+    
+    let olympics = [
+        2012: "London",
+        2016: "Rio de Janeiro",
+        2021: "Tokyo",
+    ]
+    print(olympics)
+    
+    var heights = [String: Int]()
+    heights["Yar Ming"] = 229
+    heights["Shaquille O'Neal"] = 216
+    heights["LeBron James"] = 206
+    print(heights)
+    
+    var archEnemies = [String: String]()
+    archEnemies["Batman"] = "The Joker"
+    archEnemies["Superman"] = "Lex Lutheor"
+    archEnemies["Batman"] = "Penguin"
+    print(archEnemies)
+    
+    // set
+    let people = Set(["Denel Washington", "Tom Cruise", "Micolas Cage", "Samuel L Jackson"])
+    print(people)
+    
+    var people1 = Set<String>()
+    people1.insert("Denel Washington")
+    people1.insert("tom Cruise")
+    people1.insert("Nicolas Cage")
+    people1.insert("Samuel L Jackson")
+    print(people1)
+    print(people1.count)
+    print(people1.sorted())
+    
+    // enum
+    enum Weekday {
+        case monday
+        case tuseday
+        case wednesday
+        case thursday
+        case friday
+    }
+    
+    var day = Weekday.monday
+    day = Weekday.tuseday
+    day = Weekday.friday
+    print(day)
+    
+    enum Weekday1 {
+        case monday, tuseday, wednesday, thursday, friday
+    }
+    
+    print(Weekday1.friday)
+    
 }
