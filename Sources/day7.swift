@@ -6,15 +6,18 @@ func day7() {
     printTimesTables(number: 5, end: 20)
     let root = sqrt(169);
     print(root)
+    // func
     let result = rollDice();
     print(result)
     let c = pythagoras(a: 3, b: 4);
     print(c)
 
+    // func return value
     let user = getUser();
     print("Name: \(user[0]) \(user[1])");
     let user1 = getUser1();
     print("Name: \(user1["first"]!) \(user1["last"]!)");
+    // func return tuple value
     let user2 = getUser2();
     print("Name: \(user2.first) \(user2.last)");
     let user3 = getUser3();
