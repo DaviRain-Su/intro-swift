@@ -8,8 +8,8 @@
 import Foundation
 
 func day3() {
+    print("-----------------Day3!!-----------------------");
     // array
-
     var beatles = ["John", "Paul","George","Ringo"]
     let numbers = [4, 8, 15, 16, 23, 42]
     let temperatures = [25.3, 28.2, 26.2]
@@ -136,5 +136,6 @@ func day3() {
     }
 
     print(Weekday1.friday)
+    print("--------------------Day3 End--------------------")
 
 }

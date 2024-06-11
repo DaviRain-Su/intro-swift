@@ -8,7 +8,7 @@
 import Foundation
 
 func day6() {
-    print("Day6!!");
+    print("-----------------Day6!!-----------------------");
     // repetive
     let platforms = ["IOS", "MacOS","TvOS", "watchOS"];
     for os in platforms {
@@ -46,4 +46,5 @@ func day6() {
     }
 
     print(lyric)
+    print("--------------------Day6 End--------------------")
 }

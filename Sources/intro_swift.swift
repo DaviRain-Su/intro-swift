@@ -9,6 +9,11 @@ import ArgumentParser
 @main
 struct intro_swift: ParsableCommand {
     mutating func run() throws {
+        //day1()
+        //day2()
+        //day3()
+        //day4()
+        //day5()
         day6()
         print("Hello, world!")
     }

@@ -8,6 +8,7 @@
 import Foundation
 
 func day2() {
+    print("-----------------Day2!!-----------------------");
     // bool type
     let goodGogs = true
     var gameOver = false
@@ -52,6 +53,8 @@ func day2() {
     print(fahrenheit)
     let result_celsius = convert_fahrenheit_to_celsisu(fahrenheit: fahrenheit);
     print(result_celsius)
+
+    print("--------------------Day2 End--------------------")
 }
 
 func convert_celsisu_to_fahrenheit(celsius: Double) -> Double {

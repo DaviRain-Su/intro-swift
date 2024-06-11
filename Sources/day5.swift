@@ -8,6 +8,7 @@
 import Foundation
 
 func day5() {
+    print("-----------------Day5!!-----------------------");
     // if condation
     let score = 85;
 
@@ -176,4 +177,6 @@ func day5() {
     let names = ["Jayne", "Kaylee", "Mal"];
     let crewCount = names.isEmpty ? "No One" : "\(names.count) people"
     print(crewCount)
+
+    print("--------------------Day5 End--------------------")
 }

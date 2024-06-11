@@ -8,6 +8,7 @@
 import Foundation
 
 func day4() {
+    print("-----------------Day4!!-----------------------");
     // type annotations
     let _: String = "Lasso"
     var _: Int = 0
@@ -27,4 +28,5 @@ func day4() {
     print("albums count: ",albums.count)
     let unique_albums = Set(albums)
     print(unique_albums)
+    print("--------------------Day4 End--------------------")
 }
