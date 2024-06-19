@@ -46,3 +46,24 @@ struct AppData {
 //
 //    static let example = Employee(username: "cfederighi", password: "hairforceone")
 //}
+//
+
+struct Car {
+    let model: String
+    let seats: Int
+    private var gear: Int
+
+    init(model: String, seats: Int) {
+        self.model = model
+        self.seats = seats
+        self.gear = 1
+    }
+
+    mutating func upGear() {
+        gear += 1
+    }
+
+    mutating func downGear() {
+        gear -= 1
+    }
+}
