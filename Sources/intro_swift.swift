@@ -21,7 +21,8 @@ struct intro_swift: ParsableCommand {
         //day10()
         //day11()
         //day12()
-        day13()
+        //day13()
+        tour_of_swift()
         //print("Hello, world!")
     }
 }
